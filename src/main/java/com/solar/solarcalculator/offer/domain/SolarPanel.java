@@ -53,7 +53,7 @@ public class SolarPanel {
     /**
      * Voc Coefficient
      */
-    Float coefVoc;
+    Float coefficientVoc;
 
     /**
      * Width of the solar panel
@@ -69,4 +69,9 @@ public class SolarPanel {
      * Weight of the solar panel
      */
     Float panelWeight;
+
+    /**
+     * Voc(-25 C)
+     */
+    Float vocMinus25;
 }
